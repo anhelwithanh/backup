@@ -1,0 +1,5 @@
+.veil-broken {--veil: #c49132; margin: 10px auto; display: flex; align-items: center; justify-content: center; background: var(--veil); position: relative; width: fit-content;}
+.veil-img {width: 135px; height: 145px; background: var(--image); background-position: center; filter: grayscale(1) brightness(0.6); mix-blend-mode: overlay;} 
+.veil-img:first-child {border-right: 5px solid #fff; width: 140px;} 
+.veil-broken rtext, .veil-broken ltext {position: absolute; color: #fff; font: 9px / 9px verdana !important; text-transform: uppercase; bottom: 10px; left: 55%; text-shadow: 1px 1px rgba(0 0 0 / 50%); width: 85px; text-align: left; letter-spacing: 1px;} 
+.veil-broken ltext {top: 10px; left: 15%; text-align: right;}
