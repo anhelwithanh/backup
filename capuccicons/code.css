@@ -1,7 +1,7 @@
 @charset "UTF-8"; @font-face {
       font-family: 'cappuccicons';
       src: url('https://anhelwithanh.github.io/backup/capuccicons/capuccicons.eot');
-      src: url('https://anhelwithanh.github.io/backup/capuccicons/capuccicons.eot') format('embedded-opentype'), url('https://anhelwithanh.github.io/backup/capuccicons/capuccicons.ttf') format('truetype'), url('https://anhelwithanh.github.io/backup/capuccicons/capuccicons.woff') format('woff'), url('https://anhelwithanh.github.io/backup/capuccicons/capuccicons.svg') format('svg');
+      src: url('https://anhelwithanh.github.io/backup/capuccicons/capuccicons.eot#iefix') format('embedded-opentype'), url('https://anhelwithanh.github.io/backup/capuccicons/capuccicons.ttf') format('truetype'), url('https://anhelwithanh.github.io/backup/capuccicons/capuccicons.woff') format('woff'), url('https://anhelwithanh.github.io/backup/capuccicons/capuccicons.svg') format('svg');
       font-weight: normal;
       font-style: normal;
       font-display: block;
