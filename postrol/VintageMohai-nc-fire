@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Vintage Mohai - Demo Version';
+    src: url('https://dl.dropboxusercontent.com/scl/fi/d4v3xjj6vhrx6lddk5oh3/VintageMohai-DemoVersion-Regular.woff2?rlkey=legvootg3s4rnn0h9wirmji0u&dl=0') format('woff2'),
+        url('https://dl.dropboxusercontent.com/scl/fi/nb0pblezj6z74ivvczxt2/VintageMohai-DemoVersion-Regular.woff?rlkey=jox0p90ncxseco504si65ufhy&dl=0') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
