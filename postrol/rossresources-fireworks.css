@@ -1,0 +1,261 @@
+/*
+
+       _ __ ___  ___ ___   _ __ ___  ___  ___  _   _ _ __ ___ ___  ___ 
+      | '__/ _ \/ __/ __| | '__/ _ \/ __|/ _ \| | | | '__/ __/ _ \/ __|
+      | | | (_) \__ \__ \ | | |  __/\__ \ (_) | |_| | | | (_|  __/\__ \
+      |_|  \___/|___/___/ |_|  \___||___/\___/ \__,_|_|  \___\___||___/
+
+
+                      https://rossresources.tumblr.com/
+   
+                    CRIADO POR ROSS, NÃO TIRE OS CRÉDITOS
+
+                                *:･ﾟ✧*:･ﾟ✧
+
+                   CREATED BY ROSS DON'T REMOVE MY CREDITS
+          
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:ital,wght@1,600;1,700&display=swap');
+
+@font-face {
+    font-family: 'MADE';
+    src: url(https://dl.dropbox.com/s/vpt4fqew9r6h6vg/MADE%20Canvas%20Black%20PERSONAL%20USE.otf) format('woff2');
+}
+
+@keyframes rsuchaflower-rotate {
+  0%   {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+
+#rr_we-are-fireworks {
+  /* EDIT SIZES */
+  --width: 750px;
+  --gif-size: 100px;
+  --img-size: 100px;
+  /* EDIT COLORS */
+  --bg-color: #101010;
+  --border-color: #363636;
+  --accent: #e19999;
+  --accent-italic: #d7aab0;
+  --title-color: #744040;
+  --text-color: #cfcfcf;
+  --notes-bg: #343434;
+  /* EDIT FONTS */
+  --main-font: 'ABeeZee', sans-serif;
+  --subtitle-font: italic 800 8px/100% 'Montserrat', sans-serif;
+  --font-size: 12px;
+  --line-spacing: 180%;
+  position: relative;
+  margin: 30px;
+}
+
+#rr_we-are-fireworks b {
+  color: var(--accent);
+}
+
+#rr_we-are-fireworks .rslytherin {
+  color: #58af48;
+}
+
+#rr_we-are-fireworks .rhufflepuff {
+  color: #e9c356;
+}
+
+#rr_we-are-fireworks .rravenclaw {
+  color: #7579ff;
+}
+
+#rr_we-are-fireworks .rgryffindor {
+  color: #fd4646;
+}
+
+#rr_we-are-fireworks a[href="https://is.gd/rossr"] ~ .rcontainer, #rr_we-are-fireworks a[href="https://is.gd/rossc"] ~ .rcontainer {
+  width: var(--width);
+  position: relative;
+  background: var(--bg-color);
+  outline: 1px solid var(--border-color);
+  outline-offset: -30px;
+  padding: 20px;
+  color: var(--text-color);
+}
+
+#rr_we-are-fireworks a[href="https://is.gd/rossr"] ~ .rcontainer .rtitle, #rr_we-are-fireworks a[href="https://is.gd/rossc"] ~ .rcontainer .rtitle {
+  margin: 80px 0 30px;
+  font: 96px/100% 'MADE', serif;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  color: var(--title-color);
+}
+
+#rr_we-are-fireworks .rnotes-l, #rr_we-are-fireworks .rnotes-r {
+  width: fit-content;
+  padding: 4px 5px 2px;
+  font: var(--subtitle-font);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--accent);
+}
+
+#rr_we-are-fireworks .rnotes-l {
+  margin-top: 50px;
+  margin-left: 20px;
+  float: left;
+}
+
+#rr_we-are-fireworks .rnotes-r {
+  margin-right: 20px;
+  float: right;
+}
+
+#rr_we-are-fireworks .rdivider {
+  position: relative;
+  margin-bottom: -50px;
+}
+
+#rr_we-are-fireworks .rdivider::before, #rr_we-are-fireworks .rdivider::after {
+  content: "";
+  width: calc(50% - var(--img-size) / 2 - 10px);
+  height: 1px;
+  background: var(--border-color);
+  position: absolute;
+  top: 70px;
+}
+
+#rr_we-are-fireworks .rdivider::before {
+  left: -20px;
+}
+
+#rr_we-are-fireworks .rdivider::after {
+  right: -20px;
+}
+
+#rr_we-are-fireworks .rdec {
+  width: calc(var(--img-size) + 40px);
+  height: calc(var(--img-size) + 40px);
+  border-radius: 100%;
+  margin-bottom: calc(0px - var(--img-size) - 30px);
+  position: relative;
+}
+
+#rr_we-are-fireworks .rdec::before {
+  content: "";
+  display: block;
+  border-radius: 100%;
+  background: conic-gradient(var(--bg-color) 15%, var(--accent) 25%, var(--accent) 30%, var(--bg-color) 40%, var(--bg-color) 65%, var(--accent) 75%, var(--accent) 80%, var(--bg-color) 90%);
+  position: absolute;
+  inset: 0px;
+  animation: rsuchaflower-rotate 10s linear 0s infinite;
+}
+
+#rr_we-are-fireworks .rdec::after {
+  content: "";
+  display: block;
+  border-radius: 100%;
+  background: var(--bg-color);
+  position: absolute;
+  inset: 5px;
+}
+
+#rr_we-are-fireworks .rimg {
+  width: var(--img-size);
+  height: var(--img-size);
+  padding: 10px;
+  border-radius: 100%;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  outline: 5px solid var(--bg-color);
+  position: relative;
+}
+
+#rr_we-are-fireworks .rimg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+#rr_we-are-fireworks a[href="https://is.gd/rossr"] ~ .rcontainer .rtxt, #rr_we-are-fireworks a[href="https://is.gd/rossc"] ~ .rcontainer .rtxt {
+  padding: 80px 40px 40px;
+  text-align: justify;
+  font: var(--font-size)/var(--line-spacing) var(--main-font);
+  letter-spacing: .5px;
+}
+
+#rr_we-are-fireworks .rtxt p {  
+  font: var(--font-size)/var(--line-spacing) var(--main-font);
+}
+
+#rr_we-are-fireworks .rtxt::first-letter, #rr_we-are-fireworks .rtxt p::first-letter {
+  padding-left: 30px;
+}
+
+#rr_we-are-fireworks .rtxt b {
+  font-weight: normal;
+}
+
+#rr_we-are-fireworks .rtxt i {
+  color: var(--accent-italic);
+}
+
+#rr_we-are-fireworks .rfooter {
+  width: calc(100% + 40px);
+  height: 1px;
+  background: var(--border-color);
+  margin: 0 0 0 -20px;
+}
+
+#rr_we-are-fireworks .rfooter span {
+  display: block;
+  width: fit-content;
+  float: right;
+  padding: 0 10px;
+  margin-top: -3px;
+  margin-right: 90px;
+  background: var(--bg-color);
+  font: var(--subtitle-font);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#rr_we-are-fireworks .rquote {
+  width: 70%;
+  margin: 30px auto 40px;
+  border-spacing: 30px;
+}
+
+#rr_we-are-fireworks .rquote td:nth-child(1) {
+  font: italic 700 7px/120% 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: justify;
+  padding-right: 20px;
+}
+
+#rr_we-are-fireworks .rquote td:nth-child(2) {
+  width: var(--gif-size);
+  height: var(--gif-size);
+  background: url(https://i.imgur.com/pLRj7ju.gif) center/cover;
+}
+
+#rr_we-are-fireworks a[href="https://is.gd/rossr"], #rr_we-are-fireworks a[href="https://is.gd/rossc"] {
+  height: 12px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#rr_we-are-fireworks:after {
+  display: block;
+  content: "「RR」";
+  font: bold 7px/12px 'Arial';
+  text-transform: uppercase;
+  opacity: .7;
+}
+
+#rr_we-are-fireworks:hover::after {
+  content: "「is.gd/rossr」";
+}
