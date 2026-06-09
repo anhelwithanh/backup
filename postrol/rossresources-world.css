@@ -1,0 +1,156 @@
+/*
+
+       _ __ ___  ___ ___   _ __ ___  ___  ___  _   _ _ __ ___ ___  ___ 
+      | '__/ _ \/ __/ __| | '__/ _ \/ __|/ _ \| | | | '__/ __/ _ \/ __|
+      | | | (_) \__ \__ \ | | |  __/\__ \ (_) | |_| | | | (_|  __/\__ \
+      |_|  \___/|___/___/ |_|  \___||___/\___/ \__,_|_|  \___\___||___/
+
+
+                      https://rossresources.tumblr.com/
+   
+                    CRIADO POR ROSS, NÃO TIRE OS CRÉDITOS
+
+                                *:･ﾟ✧*:･ﾟ✧
+
+                   CREATED BY ROSS DON'T REMOVE MY CREDITS
+          
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+
+#rr_i-gave-you-the-world {
+  --width: 650px;
+  --img-size: 100px;
+  --bg-color: #1a1a1a;
+  --border-color: #363636;
+  --text-color: #bdbdbd;
+  --title-color: #768978;
+  --text-accent: #6f996f;
+  --text-italic: #a3c3a3;
+  --font-style: 16px/170% 'Gentium Book Plus', serif;
+  margin: 90px 0;
+  position: relative;
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer {
+  color: var(--text-color);
+  font: var(--font-style);
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rtitle {
+  margin: 10px 0;
+  position: relative;
+  font: 900 110px/100% 'Times', serif;
+  letter-spacing: -6px;
+  color: var(--title-color);
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rtitle::before, #rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rtitle::after {
+    content: "";
+    display: block;
+    width: calc(50% - 125px);
+    height: 1px;
+    background: var(--border-color);
+    position: absolute;
+    top: 50%;
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rtitle::before {
+  left: 0;
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rtitle::after {
+  right: 0;
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rsub {
+  text-transform: lowercase;
+  font: italic 14px/180% 'Times', serif;
+  color: var(--title-color);
+  letter-spacing: 3px;
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rtxt {
+  margin: 40px 0;
+  width: var(--width);
+  text-align: justify;
+  letter-spacing: .5px;
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rtxt i {
+  color: var(--text-italic);
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rtxt b {
+  font-weight: normal;
+  color: var(--text-accent);
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rfooter {
+  margin: 70px 0;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rfooter::before, #rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rfooter::after {
+  content: "";
+  display: block;
+  width: calc(50% - var(--img-size));
+  height: 1px;
+  background: var(--border-color);
+  position: absolute;
+  top: 50%;
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rfooter::before {
+  left: 0;
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rfooter::after {
+  right: 0;
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rfooter span {
+  margin-top: -45px;
+  width: calc(50% - var(--img-size));
+  font: italic bold 11px/180% 'Gentium Book Plus', serif;
+  text-transform: uppercase;
+  color: var(--title-color);
+  letter-spacing: 3px;
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rfooter span:first-child::before {
+  left: 45px;
+  bottom: 5px;
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] ~ .rcontainer .rfooter img {
+  width: var(--img-size);
+  height: var(--img-size);
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+#rr_i-gave-you-the-world a[href="https://is.gd/rossr"] {
+  height: 12px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#rr_i-gave-you-the-world:after {
+  display: block;
+  content: "「RR」";
+  font: bold 7px/12px 'Arial';
+  text-transform: uppercase;
+  opacity: .6;
+}
+
+#rr_i-gave-you-the-world:hover::after {
+  content: "「is.gd/rossr」";
+}
